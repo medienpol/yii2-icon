@@ -3,6 +3,7 @@
 namespace medienpol\yii2icon;
 
 use yii\web\AssetBundle;
+use yii\bootstrap\BootstrapAsset;
 use medienpol\yii2icon\assets\FontAwesomeAsset;
 
 /**
@@ -17,7 +18,8 @@ class IconAsset extends AssetBundle
     public function init()
     {
         $this->depends = [
-            FontAwesomeAsset::className()
+            FontAwesomeAsset::className(),
+            BootstrapAsset::className(),
         ];
     }
 }

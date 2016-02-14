@@ -4,7 +4,8 @@ This package provides classes to easily render icons for your Yii2 application.
 
 Currently the following icon libraries are supported
 
-* Fontawesome (http://fontawesome.io) Version ```4.5```
+* Fontawesome (http://fontawesome.io)
+* Bootstrap Glyphicons (http://getbootstrap.com/components/#glyphicons)
 
 ## Installation
 
